@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>PoloniexSharp</id>
-    <version>0.0.0.1</version>
+    <version>1.0.0.0</version>
     <authors>Huy Tran</authors>
     <owners>Huy Tran</owners>
     <licenseUrl>https://github.com/skuvnar/PoloniexSharp/blob/master/LICENSE</licenseUrl>
@@ -10,9 +10,9 @@
     <iconUrl>https://raw.githubusercontent.com/skuvnar/PoloniexSharp/master/poloniex.jpg</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>Bug fixes and performance improvements</releaseNotes>
-    <description>This is 3rd party .NET library for the Poloniex REST api</description>
+    <description>This is a 3rd party .NET library for the Poloniex REST API</description>
     <copyright>Copyright ©2018 Huy Tran</copyright>
-    <tags>web poloniex cryptocurrency exchange wrapper httpclient http</tags>
+    <tags>web poloniex cryptocurrency exchange wrapper httpclient bitcoin litecoin ethereum</tags>
     <dependencies>
       <dependency id="Newtonsoft.Json" version="11.0.1" />
     </dependencies>

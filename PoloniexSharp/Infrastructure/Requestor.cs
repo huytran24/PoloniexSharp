@@ -18,7 +18,7 @@
                 HttpClient.Timeout = PoloniexConfiguration.HttpTimeSpan.Value;
         }
 
-        // Sync
+        // Synchronous requests
         public static string GetString(string url)
         {
             var wr = GetRequestMessage(url, HttpMethod.Get);
@@ -71,7 +71,6 @@
             if (response.IsSuccessStatusCode) return responseText;
 
             return String.Empty;
-
         }
     }
 }

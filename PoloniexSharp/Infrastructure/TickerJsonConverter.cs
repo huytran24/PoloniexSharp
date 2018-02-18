@@ -15,14 +15,14 @@
 
         public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
         {
-            JObject jo = JObject.Load(reader);
+            JObject jObject = JObject.Load(reader);
             var tickerCollection = new List<TickerDetails>();
-            foreach (var x in jo)
+            foreach (var objProp in jObject)
             {
-                string name = x.Key;
-                JToken value = x.Value;
-                var tickerDetails = JsonConvert.DeserializeObject<TickerDetails>(value.ToString());
-                tickerDetails.CurrencyPair = name;
+                string currencyPair = objProp.Key;
+                JToken ticker = objProp.Value;
+                var tickerDetails = JsonConvert.DeserializeObject<TickerDetails>(ticker.ToString());
+                tickerDetails.CurrencyPair = currencyPair;
                 tickerCollection.Add(tickerDetails);
             }
             return new TickerResponse() { TickerDetails = tickerCollection};

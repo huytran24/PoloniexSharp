@@ -43,9 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\TickerDetails.cs" />
     <Compile Include="Entities\TickerResponse.cs" />
+    <Compile Include="Entities\TwentyFourHourVolumeDetails.cs" />
+    <Compile Include="Entities\TwentyFourHourVolumeResponse.cs" />
+    <Compile Include="Infrastructure\PoloniexException.cs" />
     <Compile Include="Infrastructure\TickerJsonConverter.cs" />
     <Compile Include="Infrastructure\Requestor.cs" />
+    <Compile Include="Infrastructure\TwentyFourHourVolumeJsonConverter.cs" />
     <Compile Include="Infrastructure\Urls.cs" />
     <Compile Include="PoloniexConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
