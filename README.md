@@ -48,6 +48,10 @@ public class TickerDetails
 ```
 
 ## Supported functions
+Poloniex contains three types of API functions: Public API, Push API and Trading API. Below are the functions this library supports.
 
+### Public functions
 * GetTicker
 * Get24hrVolume
+* GetOrderBook
+* GetTradeHistory
