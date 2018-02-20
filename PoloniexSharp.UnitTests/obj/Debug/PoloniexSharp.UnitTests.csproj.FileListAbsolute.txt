@@ -8,13 +8,13 @@ C:\Code\PoloniexSharp\PoloniexSharp.UnitTests\bin\Debug\Microsoft.VisualStudio.T
 C:\Code\PoloniexSharp\PoloniexSharp.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
 C:\Code\PoloniexSharp\PoloniexSharp.UnitTests\bin\Debug\PoloniexSharp.dll
 C:\Code\PoloniexSharp\PoloniexSharp.UnitTests\bin\Debug\System.ValueTuple.dll
+C:\Code\PoloniexSharp\PoloniexSharp.UnitTests\bin\Debug\Newtonsoft.Json.dll
 C:\Code\PoloniexSharp\PoloniexSharp.UnitTests\bin\Debug\PoloniexSharp.pdb
 C:\Code\PoloniexSharp\PoloniexSharp.UnitTests\bin\Debug\FluentAssertions.pdb
 C:\Code\PoloniexSharp\PoloniexSharp.UnitTests\bin\Debug\FluentAssertions.xml
 C:\Code\PoloniexSharp\PoloniexSharp.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 C:\Code\PoloniexSharp\PoloniexSharp.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Code\PoloniexSharp\PoloniexSharp.UnitTests\bin\Debug\Newtonsoft.Json.xml
 C:\Code\PoloniexSharp\PoloniexSharp.UnitTests\obj\Debug\PoloniexSharp.UnitTests.csprojResolveAssemblyReference.cache
 C:\Code\PoloniexSharp\PoloniexSharp.UnitTests\obj\Debug\PoloniexSharp.UnitTests.dll
 C:\Code\PoloniexSharp\PoloniexSharp.UnitTests\obj\Debug\PoloniexSharp.UnitTests.pdb
-C:\Code\PoloniexSharp\PoloniexSharp.UnitTests\bin\Debug\Newtonsoft.Json.dll
-C:\Code\PoloniexSharp\PoloniexSharp.UnitTests\bin\Debug\Newtonsoft.Json.xml

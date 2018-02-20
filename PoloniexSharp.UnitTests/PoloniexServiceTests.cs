@@ -3,7 +3,6 @@
     using FluentAssertions;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
     using PoloniexSharp.Services;
-    using System.Net;
 
     [TestClass]
     public class PoloniexServiceTests

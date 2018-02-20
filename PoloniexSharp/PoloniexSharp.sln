@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoloniexSharp", "PoloniexSh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoloniexSharp.UnitTests", "..\PoloniexSharp.UnitTests\PoloniexSharp.UnitTests.csproj", "{1746FBCF-F676-4E17-8A31-2480AB4C46AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoloniexSharp.IntegrationTests", "..\PoloniexSharp.IntegrationTests\PoloniexSharp.IntegrationTests.csproj", "{41125873-F859-43DC-BA9F-F2EA5DC2A32F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1746FBCF-F676-4E17-8A31-2480AB4C46AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1746FBCF-F676-4E17-8A31-2480AB4C46AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1746FBCF-F676-4E17-8A31-2480AB4C46AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41125873-F859-43DC-BA9F-F2EA5DC2A32F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41125873-F859-43DC-BA9F-F2EA5DC2A32F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41125873-F859-43DC-BA9F-F2EA5DC2A32F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41125873-F859-43DC-BA9F-F2EA5DC2A32F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

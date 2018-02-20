@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace PoloniexSharp.Entities
+﻿namespace PoloniexSharp.Entities
 {
+    using System.Collections.Generic;
     public class TwentyFourHourVolumeDetails
     {
         public string CurrencyPair { get; set; }

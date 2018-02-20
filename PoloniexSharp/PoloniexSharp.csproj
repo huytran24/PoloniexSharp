@@ -43,13 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\ChartData.cs" />
     <Compile Include="Entities\ChartDataPeriodEnum.cs" />
+    <Compile Include="Entities\CurrencyDetails.cs" />
+    <Compile Include="Entities\CurrencyResponse.cs" />
+    <Compile Include="Entities\LoanOrderDetails.cs" />
+    <Compile Include="Entities\LoanOrderResponse.cs" />
     <Compile Include="Entities\OrderBookResponse.cs" />
     <Compile Include="Entities\TickerDetails.cs" />
     <Compile Include="Entities\TickerResponse.cs" />
+    <Compile Include="Entities\TradeHistory.cs" />
+    <Compile Include="Entities\TradeTypeEnum.cs" />
     <Compile Include="Entities\TwentyFourHourVolumeDetails.cs" />
     <Compile Include="Entities\TwentyFourHourVolumeResponse.cs" />
+    <Compile Include="Infrastructure\OrderBookJsonConverter.cs" />
     <Compile Include="Infrastructure\PoloniexException.cs" />
+    <Compile Include="Infrastructure\CurrenciesJsonConverter.cs" />
     <Compile Include="Infrastructure\TickerJsonConverter.cs" />
     <Compile Include="Infrastructure\Requestor.cs" />
     <Compile Include="Infrastructure\TwentyFourHourVolumeJsonConverter.cs" />
