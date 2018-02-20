@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\ChartDataPeriodEnum.cs" />
+    <Compile Include="Entities\OrderBookResponse.cs" />
     <Compile Include="Entities\TickerDetails.cs" />
     <Compile Include="Entities\TickerResponse.cs" />
     <Compile Include="Entities\TwentyFourHourVolumeDetails.cs" />

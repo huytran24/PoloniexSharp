@@ -3,3 +3,5 @@
 ################################################################################
 
 /PoloniexSharp/.vs/PoloniexSharp/v15/Server/sqlite3
+/PoloniexSharp/obj/Debug
+/PoloniexSharp.UnitTests/obj/Debug
