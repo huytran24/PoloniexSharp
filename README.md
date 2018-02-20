@@ -55,3 +55,9 @@ Poloniex contains three types of API functions: Public API, Push API and Trading
 * Get24hrVolume
 * GetOrderBook
 * GetTradeHistory
+* GetChartData
+* GetLoanOrders
+* GetCurrencies
+
+### Trading functions
+`Coming soon`
