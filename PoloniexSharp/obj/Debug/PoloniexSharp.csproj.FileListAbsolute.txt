@@ -1,7 +1,0 @@
-C:\Code\PoloniexSharp\PoloniexSharp\bin\Debug\PoloniexSharp.dll
-C:\Code\PoloniexSharp\PoloniexSharp\bin\Debug\PoloniexSharp.pdb
-C:\Code\PoloniexSharp\PoloniexSharp\bin\Debug\Newtonsoft.Json.dll
-C:\Code\PoloniexSharp\PoloniexSharp\bin\Debug\Newtonsoft.Json.xml
-C:\Code\PoloniexSharp\PoloniexSharp\obj\Debug\PoloniexSharp.dll
-C:\Code\PoloniexSharp\PoloniexSharp\obj\Debug\PoloniexSharp.pdb
-C:\Code\PoloniexSharp\PoloniexSharp\obj\Debug\PoloniexSharp.csprojResolveAssemblyReference.cache
