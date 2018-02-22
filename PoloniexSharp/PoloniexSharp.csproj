@@ -65,12 +65,15 @@
     <Compile Include="Infrastructure\Urls.cs" />
     <Compile Include="PoloniexConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\IPoloniexService.cs" />
     <Compile Include="Services\PoloniexService.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="PoloniexSharp.nuspec" />
+    <None Include="PoloniexSharp.nuspec">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

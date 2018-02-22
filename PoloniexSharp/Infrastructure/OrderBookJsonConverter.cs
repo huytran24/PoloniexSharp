@@ -6,7 +6,7 @@
     using System;
     using System.Linq;
 
-    public class OrderBookJsonConverter : JsonConverter
+    internal class OrderBookJsonConverter : JsonConverter
     {
         public override bool CanConvert(Type objectType)
         {

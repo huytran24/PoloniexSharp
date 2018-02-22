@@ -6,7 +6,7 @@
     using System;
     using System.Collections.Generic;
 
-    public class CurrenciesJsonConverter : JsonConverter
+    internal class CurrenciesJsonConverter : JsonConverter
     {
         public override bool CanConvert(Type objectType)
         {

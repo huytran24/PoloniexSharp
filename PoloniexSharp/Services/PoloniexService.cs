@@ -6,46 +6,11 @@
     using System;
     using System.Collections.Generic;
 
-    public class PoloniexService
+    public class PoloniexService : IPoloniexService
     {
-        public virtual TickerResponse GetTicker()
-        {
-            var result = JsonConvert.DeserializeObject<TickerResponse>(Requestor.GetString($"{Urls.Ticker}"));
-            return result;
-        }
-
         public virtual TwentyFourHourVolumeResponse Get24HourVolume()
         {
             var result = JsonConvert.DeserializeObject<TwentyFourHourVolumeResponse>(Requestor.GetString($"{Urls.TwentyFourHourVolume}"));
-            return result;
-        }
-
-        public virtual OrderBookResponse GetOrderBook(string currencyPair, int depth)
-        {
-            if (String.IsNullOrWhiteSpace(currencyPair))
-            {
-                throw new ArgumentException();
-            }
-
-            if (depth <= 0)
-            {
-                throw new ArgumentException();
-            }
-
-            var result = JsonConvert.DeserializeObject<OrderBookResponse>(
-                        Requestor.GetString(Urls.OrderBook(currencyPair, depth)));
-            return result;
-        }
-
-        public virtual List<TradeHistory> GetTradeHistory(string currencyPair, int startEpoch, int endEpoch)
-        {
-            if (String.IsNullOrWhiteSpace(currencyPair))
-            {
-                throw new ArgumentException();
-            }
-
-            var result = JsonConvert.DeserializeObject<List<TradeHistory>>(
-                            Requestor.GetString(Urls.TradeHistory(currencyPair, startEpoch, endEpoch)));
             return result;
         }
 
@@ -77,6 +42,40 @@
 
             var result = JsonConvert.DeserializeObject<LoanOrderResponse>(
                             Requestor.GetString(Urls.LoanOrders(currency)));
+            return result;
+        }
+
+        public virtual OrderBookResponse GetOrderBook(string currencyPair, int depth)
+        {
+            if (String.IsNullOrWhiteSpace(currencyPair))
+            {
+                throw new ArgumentException();
+            }
+
+            if (depth <= 0)
+            {
+                throw new ArgumentException();
+            }
+
+            var result = JsonConvert.DeserializeObject<OrderBookResponse>(
+                        Requestor.GetString(Urls.OrderBook(currencyPair, depth)));
+            return result;
+        }
+
+        public virtual TickerResponse GetTicker()
+        {
+            var result = JsonConvert.DeserializeObject<TickerResponse>(Requestor.GetString($"{Urls.Ticker}"));
+            return result;
+        }
+        public virtual List<TradeHistory> GetTradeHistory(string currencyPair, int startEpoch, int endEpoch)
+        {
+            if (String.IsNullOrWhiteSpace(currencyPair))
+            {
+                throw new ArgumentException();
+            }
+
+            var result = JsonConvert.DeserializeObject<List<TradeHistory>>(
+                            Requestor.GetString(Urls.TradeHistory(currencyPair, startEpoch, endEpoch)));
             return result;
         }
     }

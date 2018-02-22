@@ -9,7 +9,7 @@
     <projectUrl>https://github.com/skuvnar/PoloniexSharp</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/skuvnar/PoloniexSharp/master/poloniex.jpg</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>Added all public</releaseNotes>
+    <releaseNotes>Added all public API routes : ticker, tradehistory, chartdata, orderbook, 24hour volume, loan orders, currencies</releaseNotes>
     <description>This is a 3rd party .NET library for the Poloniex REST API</description>
     <copyright>Copyright ©2018 Huy Tran</copyright>
     <tags>web poloniex cryptocurrency exchange wrapper httpclient bitcoin litecoin ethereum</tags>

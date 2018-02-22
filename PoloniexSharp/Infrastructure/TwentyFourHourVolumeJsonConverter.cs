@@ -7,7 +7,7 @@
     using System.Collections.Generic;
     using System.Linq;
 
-    public class TwentyFourHourVolumeJsonConverter : JsonConverter
+    internal class TwentyFourHourVolumeJsonConverter : JsonConverter
     {
         public override bool CanConvert(Type objectType)
         {

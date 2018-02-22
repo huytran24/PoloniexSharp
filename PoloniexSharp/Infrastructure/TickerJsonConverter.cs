@@ -6,7 +6,7 @@
     using System;
     using System.Collections.Generic;
 
-    public class TickerJsonConverter : JsonConverter
+    internal class TickerJsonConverter : JsonConverter
     {
         public override bool CanConvert(Type objectType)
         {
