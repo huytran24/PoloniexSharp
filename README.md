@@ -1,6 +1,12 @@
 <img src="https://raw.githubusercontent.com/skuvnar/PoloniexSharp/master/poloniex.jpg" alt="Poloniex logo" width="90" />
 
-# PoloniexSharp
+# PoloniexSharp 
+
+<a href="#backers" alt="Backers on Open Collective">
+        <img src="https://img.shields.io/nuget/v/PoloniexSharp.svg" /></a>
+<a href="#backers" alt="Backers on Open Collective">
+        <img src="https://img.shields.io/travis/rust-lang/rust.svg" /></a>
+
 .NET library to access the Poloniex crypto currency exchange REST API. Currently supports .NET 4.5+. Support for .NET Standard 1.2+, .NET Core 1.0+ coming soon in the next iterations.
 
 ## Install via NuGet
@@ -64,3 +70,10 @@ Poloniex contains three types of API functions: `Public API`, `Push API` and `Tr
 
 ### Push API functions
 `Coming soon`
+
+## Authentication
+`Coming soon`
+
+## Support
+- Please check the open issues and pull requests before opening a new issue.
+- Feel free to send me a message or email if anything else comes up
