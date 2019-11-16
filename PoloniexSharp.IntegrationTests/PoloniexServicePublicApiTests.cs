@@ -5,6 +5,7 @@
     using PoloniexSharp.Services;
     using System.Net;
 
+    // integration tests
     [TestClass]
     public class PoloniexServicePublicApiTests
     {
